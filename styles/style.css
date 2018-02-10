@@ -1,0 +1,114 @@
+body {
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.clearfix:after {
+Content: “”;
+Display: block;
+Clear: both;
+}
+
+.extrabold {
+	font-weight: 800;
+}
+
+
+header{
+	height: 125px;
+	background-color: black;
+	border-bottom: 2px solid yellow;
+	box-sizing: border-box;
+}
+
+header .logo {
+	color: yellow;
+	font-size: 30px;
+	font-weight: 600; /*semibold*/
+	float:left;
+	width:100%;
+}
+
+header .logo h1{
+	margin: 25px 0 10px 25px;
+}
+
+
+header nav {
+	color: white;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+
+header ul {
+	float:right;
+	box-sizing: border-box;
+	padding-right:2%;
+
+}
+
+header nav ul li{
+	display: inline-block;
+	margin: 10px;
+	box-sizing: border-box;
+	}
+
+article {
+	height: 700px;
+	background-image: url(../images/coworking.jpg);
+	background-size: cover;
+	background-position: top center;
+}
+
+.headline {
+	background-color: grey;
+	height: 10%;
+}
+
+.headline h2 {
+	margin:auto;
+	width: 43%;
+	padding-top:1.8%;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+section {
+	width:100%;
+	height:300px;
+}
+
+aside {
+	float:left;
+	height: 100%;
+	width:33.2%;
+}
+
+.subcontainer{
+	margin: 15px;
+}
+
+.one, .two {
+	border-right: 1px solid;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	height: 80px;
+}
+
+footer .copyright p {
+	font-weight: 600;
+	font-size: 20px;
+	float: left;
+	margin: 30px;
+}

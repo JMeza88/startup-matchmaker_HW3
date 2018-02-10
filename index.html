@@ -5,13 +5,17 @@
 	<title>Document</title>
 
 	<link rel="stylesheet" type="text/css" href="./styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="./stles/style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 </head>
 <body>
 	<div class="container">
-		<header> Startup Matchmaker </header>
-			<nav>
+		<header class="clearfix"> 
+			<div class="logo"> 
+				<h1>Startup Matchmaker</h1>
+			</div>
+			<nav class="clearfix">
 				<ul>
 					<li> Find Developers</li>
 					<li> Find Designers</li>
@@ -23,34 +27,44 @@
 		</header>
 		<main>
 			<article>
-				<div class="headline"> Because Two Brains taste are better then one.
+				<div class="headline">
+				 <h2>Because Two Brains taste are better then one.
+				 </h2>
 				</div>
 				<div class="mainbox">
-					<h1> Meet your Match/h1>
+					<h1> Meet your Match</h1>
 					<p> Are You </p>
 					<div class="createbutton">
 					Create a profile
 					</div>
 				</div>		
 			</article>
-			<section>
-				<div class="subcontainer"> 	
-					<h1> Create a Profile</h1>
-					<p> Are You </p>
-				</div>
-				<div class="subcontainer"> 
-					<h1> Create a Profile</h1>
-					<p> Are You </p>
-				</div>
-				<div class="subcontainer"> 
-					<h1> Create a Profile</h1>
-					<p> Are You </p>
-				</div>
+			<section class= "clearfix">
+				<aside>
+					<div class="subcontainer one">
+						<h1> Create a Profile</h1>
+						<p> Are You </p>
+					</div>
+				</aside>
+				<aside>
+					<div class="subcontainer two"> 
+						<h1> Create a Profile</h1>
+						<p> Are You </p>
+					</div>
+				</aside>
+				<aside>
+					<div class="subcontainer three"> 
+						<h1> Create a Profile</h1>
+						<p> Are You </p>
+					</div>
+				</aside>
 			</section>
 		</main>
 
-		<footer>
-			2013 Startup Matchmaker. Made in NY
+		<footer class="clearfix">
+			<div class="copyright">
+			 	<p>2013 Startup Matchmaker. Made in NY</p>
+			</div>
 		</footer>
 	</div>
 </body>
