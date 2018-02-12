@@ -1,6 +1,6 @@
 body {
 	margin: auto;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	width: 100%;
 	-moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -14,9 +14,6 @@ Display: block;
 Clear: both;
 }
 
-.extrabold {
-	font-weight: 800;
-}
 
 .silver{
 	background-color: #C0C0C0;
@@ -34,16 +31,17 @@ color:#989898;
 
 
 header{
-	height: 125px;
+	height: 130px;
 	background-color: black;
 	border-bottom: 2px solid yellow;
 	box-sizing: border-box;
+
 }
 
 header .logo {
 	color: yellow;
 	font-size: 40px;
-	font-weight: 600; /*semibold*/
+	font-weight: 700; /*semibold*/
 	float:left;
 	width:100%;
 }
@@ -55,10 +53,11 @@ header .logo h1{
 
 header nav {
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 	float: left;
 	width: 100%;
-	box-sizing: border-box;
+	box-sizing: border-box;	
+	
 
 }
 
@@ -73,6 +72,7 @@ header nav ul li{
 	display: inline-block;
 	margin: 10px;
 	box-sizing: border-box;
+	font-weight: 400;
 	}
 
 header a {
@@ -125,7 +125,7 @@ article {
 .createbutton a {
 text-decoration: none;
 font-size: 30px;
-font-weight: 800;
+font-weight: 700;
 color:black;
 }
 
@@ -143,7 +143,7 @@ color:black;
 	padding-top:1.8%;
 	font-style: italic;
 	font-size: 24px;
-	font-weight: 800;
+	font-weight: 700;
 	text-align: center;
 }
 
@@ -204,3 +204,9 @@ footer .copyright p {
 	float: left;
 	margin: 30px;
 }
+
+.extrabold {
+	font-weight: 700;
+	font-size:26px;
+}
+
